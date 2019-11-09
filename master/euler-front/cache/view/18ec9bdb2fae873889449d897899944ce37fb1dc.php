@@ -26,7 +26,7 @@
                         <li><a href="busca-cliente">Consulta</a></li>
                     </ul>
                 </li>
-                 <li><a style="color: white">Pedidos</a>
+                 <li><a style="color: white">Pedido</a>
                     <ul>      
                         <li><a href="cadastro-pedido">Cadastrar</a></li>
                         <li><a href="busca-pedido">Consulta</a></li>

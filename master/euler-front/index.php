@@ -38,6 +38,18 @@ $router
         $oController = new BuscaClienteController();
         $oController->index();
     })
+    ->get('/cadastro-pedido', function () {
+        require_once('controller/CadastroPedidoController.php');
+
+        $oController = new CadastroPedidoController();
+        $oController->index();
+    })
+    ->get('/busca-pedido', function () {
+        require_once('controller/BuscaPedidoController.php');
+
+        $oController = new BuscaPedidoController();
+        $oController->index();
+    })
 
     /*->on('GET', 'path/to/action', function () {
         return 'this is a hero return';
