@@ -151,6 +151,5 @@
 @endsection
 
 @section('scripts')
-<script src="/master/euler-front/public/JS/js_cadastro_usuario.js" type="text/javascript"></script>
 <script src="/master/euler-front/public/JS/js_consulta_cliente.js" type="text/javascript"></script>
 @endsection

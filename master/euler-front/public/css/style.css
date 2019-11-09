@@ -7,7 +7,9 @@
     background: #efefef;
     height: 8%;
 }
-
+.tabela_de_pedidos,td,tr{
+    width: 1000px;
+}
 #nav-bar h1{
     color: #555;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
