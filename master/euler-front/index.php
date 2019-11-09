@@ -26,7 +26,18 @@ $router
         $oController = new BuscaProdutoController();
         $oController->index();
     })
+    ->get('/cadastro-cliente', function () {
+        require_once('controller/CadastroClienteController.php');
 
+        $oController = new CadastroClienteController();
+        $oController->index();
+    })
+    ->get('/busca-cliente', function () {
+        require_once('controller/BuscaClienteController.php');
+        
+        $oController = new BuscaClienteController();
+        $oController->index();
+    })
 
     /*->on('GET', 'path/to/action', function () {
         return 'this is a hero return';
